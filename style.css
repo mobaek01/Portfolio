@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* =============================== */
+
+/* Top */
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    background: #F6F4F8;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.topName {
+    text-decoration: none;
+    color: black;
+}
+
+.right > a {
+    color: black;
+}
+
+/* Header */
+
+header {
+    padding: 3%;
+    border: 1px solid gray;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+
+.headImg {
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    align-self: flex-end;
+    border-radius: 50%;
+    margin-bottom: -30%;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.name {
+    font-size: 3em;
+    margin-bottom: -2%;
+    font-weight: 900;
+}
+
+.meSpan {
+    font-size: 1.5em;
+    color: darkslategray;
+    font-style: italic;
+}
+
+.techNames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.techNames > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 3vh;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px black;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: .75em;
+    background: darkslategray;
+    color: white;
+    margin: 1%;
+}
+
+/* =============================== */
+
+/* About Me */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid gray;
+    background: #F6F4F8;
+}
+
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+
+.aboutText {
+    width: 60%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    width: 40%
+}
+
+.contactMe > a {
+    color: black;
+    text-decoration: none;
+}
+
+.contactMe {
+    display: flex;
+    align-items: center;
+}
+
+.contactIcon {
+    display: flex;
+    align-self: center;
+    width: 3vw;
+    margin-right: 2%;
+}
+
+/* =============================== */
+
+/* Projects */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+
+.projectTitle {
+    text-align: center;
+}
+
+details {
+    text-align: center;
+}
+
+.projectCard {
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2%;
+    height: 60vh;
+}
+
+.cardBot {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.tech {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tech > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 3vh;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px black;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: .75em;
+    background: darkslategray;
+    color: white;
+}
+
+.projectImg {
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px black;
+    border: 1px solid darkgray;
+    width: 40vw;
+    height: 30vh;
+    margin-bottom: 1%;
+}
+
+.projectDesc {
+    font-size: .7em;
+}
+
+li {
+    list-style: square;
+}
+
+summary:hover {
+    cursor: pointer;
+}
+
+/* =============================== */
+
+/* Footer */
+
+footer {
+    padding: 2%;
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F6F4F8;
+    font-family: 'Ubuntu', sans-serif;
+    border-top: 1px solid gray;
+}
+
+.footerRight > a {
+    color: black;
+}
+
+.footerIcon {
+    width: 2vw;
+}
+
+/* =============================== */
