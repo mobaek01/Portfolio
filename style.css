@@ -26,8 +26,16 @@ body {
     color: black;
 }
 
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
 .right > a {
     color: black;
+    margin-left: 4%;
 }
 
 /* Header */
@@ -41,8 +49,8 @@ header {
 }
 
 .headImg {
-    width: 10vw;
-    height: 10vh;
+    width: 130px;
+    height: 140px;
     display: flex;
     align-self: flex-end;
     border-radius: 50%;
@@ -141,6 +149,17 @@ header {
     margin-right: 2%;
 }
 
+.gaCert {
+    color: white;
+    text-decoration: none;
+    background: darkslategray;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px black;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: .75em;
+}
+
 /* =============================== */
 
 /* Projects */
@@ -168,14 +187,15 @@ details {
     align-items: center;
     text-align: center;
     margin-bottom: 2%;
-    height: 60vh;
+    height: 100vh;
 }
 
 .cardBot {
     display: flex;
-    width: 80%;
-    align-items: center;
-    margin-top: 2%;
+    width: 95%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2%;
 }
 
 .tech {
@@ -203,13 +223,11 @@ details {
     box-shadow: 5px 5px 10px black;
     border: 1px solid darkgray;
     width: 40vw;
-    height: 30vh;
+    height: 50vh;
     margin-bottom: 1%;
 }
 
-.projectDesc {
-    font-size: .7em;
-}
+
 
 li {
     list-style: square;
